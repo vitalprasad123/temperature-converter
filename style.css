@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: URL("/images (1).jpeg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.converter-card {
+  background: linear-gradient(to right,#434343,#000000);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.converter-card:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2575fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1a5ad9;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0f6;
+  line-height: 1.6;
+}
