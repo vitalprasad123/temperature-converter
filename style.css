@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: URL("images(1).jpeg");
+  background:  linear-gradient(to right,#434343,#000000);
   height: 100vh;
   display: flex;
   justify-content: center;
